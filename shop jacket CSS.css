@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#bg{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(188, 191, 193);
+    padding: 5%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(233, 237, 247);
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    padding: 0 30px;
+    
+}
+
+#nav h4{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#nav i{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 50%;
+    font-weight: 500;   
+}
+
+#center{
+    width: 100%;
+    /* background-color: skyblue; */
+    padding: 50px;
+}
+h1{
+     font-weight: 200;
+     font-size: 70px;
+     line-height: 1;
+}
+
+#center-bottom{
+    height: 100px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#center-bottom p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height:25px;
+
+}
+
+#right{
+    width: 20%;
+}
+.elem{
+     /* background-color: yellow; */
+    padding: 8px 0;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+
+}
+
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.elem i{
+    font-size: 20px;
+    font-weight:400; 
+    opacity: 0;
+}
+
+.elem:hover i{
+    
+    opacity: 1;
+}
+
+#bottom{
+    height: 25%;
+    width: 100%;
+    background-image:url(https://media.istockphoto.com/id/2158071873/photo/confident-businesswoman-walking-in-the-city-with-documents.jpg?s=2048x2048&w=is&k=20&c=lj8F5VTdKlki8JTn579sjYFLP7RmK-x_S8Zqh5W1I3I=);
+    background-size: cover;
+    background-position: 0 18%;
+}
+
